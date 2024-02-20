@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Afacad' rel='stylesheet'/>
+</head>
+<style>
+    img{
+        border-radius:70%;
+        padding:10px;
+        box-shadow: 2px 2px 2px rgba(5,3,4, 0.2);
+    }
+    img + figcaption
+    {
+        font-family: 'Afacad';   
+        font-weight: 600;
+       color:rgba(48, 47, 47, 0.952);
+       position: relative;
+       top:15px;
+       font-size: 16px; 
+    }
+ 
+    @media(max-width:768px)
+    {
+        .hidecol
+        {
+            visibility: hidden;
+        }
+        .topmove
+    {
+        position: relative;
+        top:30px;
+       
+    }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="row topmove">
+            <div class="col-sm-2 col-lg-2 col-xs-4">
+                <figure>
+                    <img src="html.png" height="55" width="55"/>
+                    <figcaption>&nbsp;&nbsp;&nbsp;HTML</figcaption>
+                  </figure>
+                
+            </div>
+            <div class="col-sm-2 col-lg-2 col-xs-4">
+                <figure>
+                    <img src="css.png"  height="55" width="55"/>
+                    <figcaption>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS</figcaption>
+                  </figure>
+            </div>
+            <div class="col-sm-2 col-lg-2 col-xs-4">
+                <figure>
+                    <img src="boot.png"  height="55" width="55"/>
+                    <figcaption>BOOTSTRAP</figcaption>
+                  </figure>
+            </div>
+            <div class="col-sm-2 col-lg-2 hidecol" id="">
+                <figure>
+                    <img src="js.png" height="55" width="55"/>
+                    <figcaption>JavaScript</figcaption>
+                  </figure>
+            </div>
+        </div>
+        <div class="col-lg-offset-12">
+            &nbsp;
+        </div>
+        <div class="col-lg-offset-12">
+            &nbsp;
+        </div>
+        <div class="row">
+            <div class="col-sm-2 col-lg-2 col-xs-4">
+                <figure>
+                    <img src="react.png" height="55" width="55"/>
+                    <figcaption>&nbsp;&nbsp;ReactJS</figcaption>
+                  </figure>
+                
+            </div>
+            <div class="col-sm-2 col-lg-2 col-xs-4">
+                <figure>
+                    <img src="spring.png"  height="55" width="55"/>
+                    <figcaption>&nbsp;&nbsp;&nbsp;Spring</figcaption>
+                  </figure>
+            </div>
+            <div class="col-sm-2 col-lg-2 col-xs-4">
+                <figure>
+                    <img src="gg.png"  height="55" width="55"/>
+                    <figcaption>BOOTSTRAP</figcaption>
+                  </figure>
+            </div>
+            <div class="col-sm-2 col-lg-2 hidecol">
+                <figure>
+                    <img src="django.png" height="55" width="55"/>
+                    <figcaption>&nbsp;&nbsp;Django</figcaption>
+                  </figure>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
